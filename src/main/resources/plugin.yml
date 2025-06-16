@@ -1,0 +1,12 @@
+name: fCode
+version: 1.0
+main: ru.DiamondDev.Main
+author: fxckqr
+description: Плагин для активации промокодов
+commands:
+  code:
+    description: Активировать промокод
+    usage: /code <код>
+  codereload:
+    description: Перезагрузить конфиг
+    usage: /codereload

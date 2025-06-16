@@ -1,0 +1,16 @@
+codes:
+  'DiamondDev':
+    limit: 1
+    limit-players: 2
+    commands:
+      - 'eco give %player% 1000'
+    message: 'Вы успешно активировали код.'
+    message-limit: 'Вы исчерпали лимит использования данного кода.'
+    message-limit-players: 'Данный промокод много раз вводили.'
+
+messages:
+  prefix: '§6fcode §8| §f'
+  no-permission: 'У вас нет прав.'
+  code-notfound: 'Данный промокод не найден.'
+  codereload: 'Конфигурация перезагружена.'
+  code: '§6/code [код] §f- Ввести промокод'
